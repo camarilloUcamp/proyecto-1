@@ -63,6 +63,7 @@
         position: relative;
         width: 100%;
         padding-bottom: 30%;
+        transition: 1s ease-in;
         /* 
         para cambiar el height cambiar 
         el porcentaje de padding
@@ -91,6 +92,7 @@
         margin: 2.5px;
         width: calc((100%/3) - 8px);
         padding-bottom: 12%;
+        transition: width 2s ease-in-out;
     }
     
     .item.categorias {
@@ -139,6 +141,7 @@
         margin: 5px;
         width: calc((100%/5) - 14px);
         padding-bottom: 25%;
+        transition: width 2s ease-in-out;
     }
     
     .item.productos {
