@@ -99,4 +99,46 @@
     }
     /* ----------------categorias---------------- */
     /* ------------------promos------------------ */
+    
+    section.promos {
+        position: relative;
+        width: calc (100% - 20px);
+        margin: 10px;
+        padding-bottom: 10%;
+    }
+    
+    div.promos {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        background-color: lightgrey;
+    }
     /* ------------------promos------------------ */
+    /* ----------------productos---------------- */
+    
+    section.productos {
+        position: relative;
+        width: calc (100% - 20px);
+        margin: 10px;
+        padding-bottom: 20%;
+    }
+    
+    section.productos>div.row {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    
+    div.productos {
+        margin: 0px 10px;
+        width: 15%;
+        height: 100%;
+        border-radius: 5px;
+        background-color: lightgray;
+    }
+    /* ----------------productos---------------- */
