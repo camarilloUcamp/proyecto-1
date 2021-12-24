@@ -75,27 +75,24 @@
     /* ----------------categorias---------------- */
     
     section.categorias {
-        position: relative;
-        width: calc (100% - 20px);
+        width: 100%;
+        text-align: center;
         margin: 10px;
-        padding-bottom: 10%;
     }
     
-    section.categorias>div.row {
+    .cell.categorias {
+        display: inline-block;
+        position: relative;
+        width: 30%;
+        padding-bottom: 30%;
+    }
+    
+    .item.categorias {
         position: absolute;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
         width: 100%;
         height: 100%;
         border-radius: 5px;
-    }
-    
-    div.categorias {
-        width: 32%;
-        height: 100%;
-        border-radius: 5px;
-        background-color: lightgray;
+        background-color: lightgrey;
     }
     /* ----------------categorias---------------- */
     /* ------------------promos------------------ */
@@ -151,21 +148,4 @@
     }
     /* -----------------footer----------------- */
     
-    @media screen and (max-width: 768px) {
-        section.categorias {
-            position: static;
-            padding: 0px;
-            margin: 0px;
-            background-color: lightyellow;
-        }
-        section.categorias>div.row {
-            position: static;
-            width: 100%;
-            padding: 0px;
-        }
-        div.categorias {
-            width: 100%;
-            height: 30px;
-            margin: 00px 0px;
-        }
-    }
+    @media screen and (max-width: 600px) {}
