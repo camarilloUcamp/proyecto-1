@@ -64,7 +64,7 @@
         */
     }
     
-    div.jumbotron {
+    .item.jumbotron {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -98,13 +98,19 @@
     /* ------------------promos------------------ */
     
     section.promos {
-        position: relative;
-        width: calc (100% - 20px);
+        width: 100%;
+        text-align: center;
         margin: 10px;
+    }
+    
+    .cell.promos {
+        display: inline-block;
+        position: relative;
+        width: 100%;
         padding-bottom: 10%;
     }
     
-    div.promos {
+    .item.promos {
         position: absolute;
         width: 100%;
         height: 100%;
