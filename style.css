@@ -152,5 +152,19 @@
         background-color: gray;
     }
     /* -----------------footer----------------- */
+    /* ---------------responsive--------------- */
     
-    @media screen and (max-width: 600px) {}
+    @media screen and (max-width: 600px) {
+        section.jumbotron {
+            padding-bottom: 80%;
+        }
+        .cell.categorias {
+            width: 100%;
+            padding-bottom: 18%;
+        }
+        .cell.productos {
+            width: calc((100%/2) - 14px);
+            padding-bottom: 60%;
+        }
+    }
+    /* ---------------responsive--------------- */
