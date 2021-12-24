@@ -55,7 +55,7 @@
     
     section.jumbotron {
         position: relative;
-        width: calc (100% - 20px);
+        width: calc(100% - 20px);
         margin: 10px;
         padding-bottom: 30%;
         /* 
@@ -75,7 +75,7 @@
     /* ----------------categorias---------------- */
     
     section.categorias {
-        width: calc (100% - 20px);
+        width: calc(100% - 20px);
         text-align: center;
         margin: 10px;
     }
@@ -83,8 +83,9 @@
     .cell.categorias {
         display: inline-block;
         position: relative;
-        width: 30%;
-        padding-bottom: 30%;
+        margin: 2.5px;
+        width: calc((100%/3) - 8px);
+        padding-bottom: 12%;
     }
     
     .item.categorias {
@@ -98,7 +99,7 @@
     /* ------------------promos------------------ */
     
     section.promos {
-        width: calc (100% - 20px);
+        width: calc(100% - 20px);
         text-align: center;
         margin: 10px;
     }
@@ -106,6 +107,7 @@
     .cell.promos {
         display: inline-block;
         position: relative;
+        margin: 2.5px;
         width: 100%;
         padding-bottom: 10%;
     }
@@ -121,7 +123,7 @@
     /* ----------------productos---------------- */
     
     section.productos {
-        width: calc (100% - 20px);
+        width: calc(100% - 20px);
         text-align: center;
         margin: 10px;
     }
@@ -129,7 +131,8 @@
     .cell.productos {
         display: inline-block;
         position: relative;
-        width: 19%;
+        margin: 5px;
+        width: calc((100%/5) - 14px);
         padding-bottom: 25%;
     }
     
