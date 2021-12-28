@@ -29,9 +29,7 @@
         align-items: center;
     }
     
-    .navbar-row:nth-child(2) {
-        padding: 0px 80px;
-    }
+    .navbar-row:nth-child(2) {}
     
     nav input {
         margin: 0 auto;
@@ -42,12 +40,20 @@
     }
     
     nav a {
-        width: 120px;
+        /* width: 120px;
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
         font-size: 18px;
+        text-decoration: none; */
+        float: left;
+        padding: 12px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
+        font-size: 17px;
+        width: 25%;
+        text-align: center;
     }
     /* -------------------header------------------- */
     /* -----------------jumbotron----------------- */
@@ -233,7 +239,7 @@
     } */
     /* links */
     
-    section.jumbotron>a {
+    .links>a {
         display: inline-flex;
         width: 1.5rem;
         height: 1.5rem;
@@ -255,3 +261,17 @@
         background: lightgrey;
     }
     /* ---------------carussel--------------- */
+    
+    nav a:hover {
+        background-color: #000;
+    }
+    
+    @media screen and (max-width: 500px) {
+        nav a {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: left;
+            /* If you want the text to be left-aligned on small screens */
+        }
+    }
