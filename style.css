@@ -302,6 +302,7 @@
         background: lightgrey;
     }
     /* ---------------carussel--------------- */
+    /* -----------------chat----------------- */
     
     a.chat {
         position: fixed;
@@ -310,12 +311,18 @@
         border-top-right-radius: 5%;
         width: 200px;
         height: 50px;
-        right: 20px;
+        right: -200px;
         bottom: 0px;
         background: lightgreen;
-        opacity: 0;
         text-decoration: none;
-        animation: slidein 1s ease 4s forwards;
+        border-style: solid solid none solid;
+        border-color: black;
+        border-width: 1px;
+        animation: slidein 2s ease 5s forwards;
+        /* 
+        animation:animation-name animation-duration animation-timing-function
+        animation-delay animation-iteration-count animation-direction 
+        */
     }
     
     a.chat>div {
@@ -328,9 +335,32 @@
     
     @keyframes slidein {
         0% {
-            opacity: 0;
+            right: -200px;
+        }
+        50% {
+            right: 20px;
+        }
+        55% {
+            transform: rotateZ(0);
+        }
+        60% {
+            transform: rotateZ(-15deg);
+        }
+        65% {
+            transform: rotateZ(10deg);
+        }
+        70% {
+            transform: rotateZ(-10deg);
+        }
+        75% {
+            transform: rotateZ(6deg);
+        }
+        80% {
+            transform: rotateZ(-4deg);
         }
         100% {
-            opacity: 1;
+            transform: rotateZ(0);
+            right: 20px;
         }
     }
+    /* -----------------chat----------------- */
