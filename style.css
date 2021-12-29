@@ -302,3 +302,35 @@
         background: lightgrey;
     }
     /* ---------------carussel--------------- */
+    
+    a.chat {
+        position: fixed;
+        text-align: center;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        width: 200px;
+        height: 50px;
+        right: 20px;
+        bottom: 0px;
+        background: lightgreen;
+        opacity: 0;
+        text-decoration: none;
+        animation: slidein 1s ease 4s forwards;
+    }
+    
+    a.chat>div {
+        position: relative;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        text-decoration: none;
+    }
+    
+    @keyframes slidein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
