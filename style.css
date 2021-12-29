@@ -31,6 +31,7 @@
     }
     
     nav input {
+        display: inline-block;
         margin: 0 auto;
         border: 1px;
         border-radius: 5px;
@@ -50,15 +51,15 @@
     }
     
     nav a:hover {
-        background-color: #000;
+        background-color: lightblue;
     }
     /* -------------------header------------------- */
     /* -----------------jumbotron----------------- */
     
     section.jumbotron {
-        width: calc(100% - 20px);
+        width: calc(100% - 10%);
         text-align: center;
-        margin: 40px 10px;
+        margin: 40px 5%;
     }
     
     .cell.jumbotron {
@@ -83,16 +84,16 @@
     /* ----------------categorias---------------- */
     
     section.categorias {
-        width: calc(100% - 20px);
+        width: calc(100% - 10%);
         text-align: center;
-        margin: 40px 10px;
+        margin: 40px 5%;
     }
     
     .cell.categorias {
         display: inline-block;
         position: relative;
-        margin: 2.5px;
-        width: calc((100%/3) - 8px);
+        margin: 20px;
+        width: calc((100%/3) - 43px);
         padding-bottom: 12%;
         transition: width 2s ease-in-out;
     }
@@ -108,17 +109,20 @@
     /* ------------------promos------------------ */
     
     section.promos {
-        width: calc(100% - 20px);
+        width: calc(100% - 10%);
         text-align: center;
-        margin: 40px 10px;
+        margin: 40px 5%;
     }
     
     .cell.promos {
         display: inline-block;
         position: relative;
-        margin: 2.5px;
         width: 100%;
         padding-bottom: 10%;
+    }
+    
+    .cell.promos:first-child {
+        margin-bottom: 40px;
     }
     
     .item.promos {
@@ -132,9 +136,9 @@
     /* ----------------productos---------------- */
     
     section.productos {
-        width: calc(100% - 20px);
+        width: calc(100% - 30%);
         text-align: center;
-        margin: 40px 10px;
+        margin: 40px 15%;
     }
     
     .cell.productos {
@@ -168,11 +172,13 @@
         }
         .cell.categorias {
             width: 100%;
+            margin: 0px 0px 20px 0px;
             padding-bottom: 18%;
         }
+        .cell.categorias:last-child {
+            margin-bottom: 0px;
+        }
         .cell.productos {
-            /* width: calc((100%/2) - 14px);
-            padding-bottom: 60%; */
             padding-bottom: 50%;
         }
         .slides.productos>div {
@@ -250,7 +256,7 @@
         height: 100%;
         margin-right: 50px;
         border-radius: 5px;
-        background: #eee;
+        background: lightgray;
         transform-origin: center center;
         transform: scale(1);
         transition: transform 0.5s;
