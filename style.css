@@ -15,6 +15,10 @@
         font-family: 'Segoe UI', Verdana, sans-serif;
         color: whitesmoke;
     }
+    
+    button:hover {
+        cursor: pointer;
+    }
     /* -------------------header------------------- */
     
     header {
@@ -234,6 +238,8 @@
     
     .footer.col-4>button {
         padding: 3px 3px;
+        border-radius: 5px;
+        border-width: 1px;
     }
     /* -----------------footer----------------- */
     /* ---------------responsive--------------- */
@@ -382,17 +388,17 @@
     /* ---------------carussel--------------- */
     /* -----------------chat----------------- */
     
-    a.chat {
+    button.chat {
         position: fixed;
         text-align: center;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
         width: 200px;
-        height: 50px;
+        height: 40px;
         right: -200px;
         bottom: 0px;
         background: lightgreen;
-        border-style: solid solid none solid;
+        /* border-style: solid solid none solid; */
         border-color: rgb(121, 199, 121);
         border-width: 1px;
         animation: slidein 2s ease 5s forwards;
@@ -400,13 +406,6 @@
         animation:animation-name animation-duration animation-timing-function
         animation-delay animation-iteration-count animation-direction 
         */
-    }
-    
-    a.chat>div {
-        position: relative;
-        display: block;
-        top: 50%;
-        transform: translateY(-50%);
     }
     
     @keyframes slidein {
