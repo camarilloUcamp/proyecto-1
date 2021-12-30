@@ -184,6 +184,7 @@
         display: inline;
         width: 25%;
         background-color: lightsteelblue;
+        transition: 1s ease-in;
     }
     
     footer .col-2 {
@@ -191,18 +192,21 @@
         display: inline;
         width: 25%;
         background-color: lightsteelblue;
+        transition: 1s ease-in;
     }
     
     footer .col-3 {
         padding-right: 10px;
         width: 25%;
         background-color: lightsteelblue;
+        transition: 1s ease-in;
     }
     
     footer .col-4 {
         width: 25%;
         background-color: lightsteelblue;
         margin: auto 0;
+        transition: 1s ease-in;
     }
     
     .footer.col-4>input {
@@ -339,6 +343,7 @@
         justify-content: center;
         align-items: center;
         font-size: 100px;
+        transition: 1s ease-in;
     }
     
     .slides>div:nth-child(5) {
