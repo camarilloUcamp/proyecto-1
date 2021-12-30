@@ -9,6 +9,12 @@
         height: 100%;
         width: 100%;
     }
+    
+    a {
+        text-decoration: none;
+        font-family: 'Segoe UI', Verdana, sans-serif;
+        color: whitesmoke;
+    }
     /* -------------------header------------------- */
     
     header {
@@ -43,11 +49,10 @@
         float: left;
         padding: 12px;
         color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        font-size: 17px;
+        font-size: 16px;
         width: 25%;
         text-align: center;
+        font-weight: 600;
     }
     
     nav a:hover {
@@ -59,7 +64,7 @@
     section.jumbotron {
         width: calc(100% - 10%);
         text-align: center;
-        margin: 40px 5%;
+        margin: 40px auto;
     }
     
     .cell.jumbotron {
@@ -86,7 +91,7 @@
     section.categorias {
         width: calc(100% - 10%);
         text-align: center;
-        margin: 40px 5%;
+        margin: 40px auto;
     }
     
     .cell.categorias {
@@ -111,7 +116,7 @@
     section.promos {
         width: calc(100% - 10%);
         text-align: center;
-        margin: 40px 5%;
+        margin: 40px auto;
     }
     
     .cell.promos {
@@ -138,7 +143,7 @@
     section.productos {
         width: calc(100% - 30%);
         text-align: center;
-        margin: 40px 15%;
+        margin: 40px auto;
     }
     
     .cell.productos {
@@ -160,8 +165,70 @@
     
     footer {
         width: 100%;
-        height: 300px;
+        padding: 20px 0 0 0;
         background-color: gray;
+        text-align: center;
+    }
+    
+    div.footer.row-1 {
+        display: inline-flex;
+        margin: 0 auto;
+        width: calc(100% - 10%);
+        background-color: lightgray;
+        text-align: left;
+    }
+    
+    footer .column-1 {
+        margin-right: 10px;
+        display: inline;
+        width: 25%;
+        background-color: lightsteelblue;
+    }
+    
+    footer .column-2 {
+        margin-right: 10px;
+        display: inline;
+        width: 25%;
+        background-color: lightsteelblue;
+    }
+    
+    footer .column-3 {
+        margin-right: 10px;
+        width: 25%;
+        background-color: lightsteelblue;
+    }
+    
+    footer .column-4 {
+        width: 25%;
+        background-color: lightsteelblue;
+        margin: auto 0;
+    }
+    
+    .footer.column-4>input {
+        width: 100%;
+        height: 30px;
+        margin: 5px 0;
+        border: 1px;
+        border-radius: 5px;
+    }
+    
+    .footer.row-2 {
+        padding: 10px 0px;
+        display: inline-flex;
+        width: calc(100% - 10%);
+        text-align: left;
+        border-style: solid none none none;
+        border-color: rgb(121, 199, 121);
+    }
+    
+    ul.footer li {
+        list-style-type: none;
+        margin: 2px;
+        font-size: 14px;
+    }
+    
+    .footer.column-4>button {
+        padding: 3px 3px;
     }
     /* -----------------footer----------------- */
     /* ---------------responsive--------------- */
@@ -178,6 +245,9 @@
         .cell.categorias:last-child {
             margin-bottom: 0px;
         }
+    }
+    
+    @media screen and (max-width: 800px) {
         .cell.productos {
             padding-bottom: 50%;
         }
@@ -189,7 +259,7 @@
         }
     }
     
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 800px) {
         .slides.productos>div {
             width: calc((100%/5) - 40px);
         }
@@ -286,7 +356,6 @@
         height: 1.5rem;
         background: #eee;
         color: black;
-        text-decoration: none;
         align-items: center;
         justify-content: center;
         border-radius: 50%;
@@ -314,9 +383,8 @@
         right: -200px;
         bottom: 0px;
         background: lightgreen;
-        text-decoration: none;
         border-style: solid solid none solid;
-        border-color: black;
+        border-color: rgb(121, 199, 121);
         border-width: 1px;
         animation: slidein 2s ease 5s forwards;
         /* 
@@ -330,7 +398,6 @@
         display: block;
         top: 50%;
         transform: translateY(-50%);
-        text-decoration: none;
     }
     
     @keyframes slidein {
