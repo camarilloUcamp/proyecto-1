@@ -46,11 +46,13 @@
         height: 30px;
         margin: auto 0;
         justify-content: center;
+        width: 30%;
     }
     
     .navbar.col-1,
     .navbar.col-3 {
-        width: 30%;
+        justify-content: right;
+        margin-right: 40px;
     }
     
     .navbar.col-2 {
@@ -66,14 +68,18 @@
         height: 30px;
     }
     
-    i {
+    .navbar.column a {
         margin: 0 10px;
         display: inline-block;
+        height: 30px;
+    }
+    
+    i {
         font-size: 1.5rem;
         color: white;
     }
     
-    nav a {
+    .navbar.row-2 a {
         float: left;
         padding: 12px;
         color: white;
@@ -83,7 +89,7 @@
         font-weight: 600;
     }
     
-    nav a:hover {
+    .navbar.row-2 a:hover {
         background-color: lightblue;
     }
     /* -------------------header------------------- */
@@ -193,15 +199,31 @@
     
     footer {
         width: 100%;
-        padding: 20px 0 0 0;
         background-color: gray;
         text-align: center;
     }
     
-    div.footer.row-1 {
+    .footer.social {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 40px;
+        top: -20px;
+        left: calc(50% - 100px);
+        background-color: lightskyblue;
+        border-radius: 5px;
+    }
+    
+    .footer.social>a {
+        font-size: 20px;
+        width: 50%;
+    }
+    
+    .footer.row-1 {
         display: inline-flex;
         flex-wrap: wrap;
-        margin: 0 auto;
+        margin: 5px auto 0px;
         width: calc(100% - 10%);
         background-color: lightgray;
         text-align: left;
@@ -269,15 +291,25 @@
     /* ---------------responsive--------------- */
     
     @media screen and (max-width: 600px) {
-        .cell.jumbotron {
+        .navbar.column.col-1 {
+            width: 5%;
+        }
+        .navbar.column.col-2 {
+            width: 75%;
+        }
+        .navbar.column.col-3 {
+            width: 20%;
+            margin-right: 0px;
+        }
+        .jumbotron.cell {
             padding-bottom: 80%;
         }
-        .cell.categorias {
+        .categorias.cell {
             width: 100%;
             margin: 0px 0px 20px 0px;
             padding-bottom: 18%;
         }
-        .cell.categorias:last-child {
+        .categorias.cell:last-child {
             margin-bottom: 0px;
         }
         .footer .column {
@@ -286,22 +318,22 @@
     }
     
     @media screen and (max-width: 800px) {
-        .cell.productos {
+        .productos.cell {
             padding-bottom: 50%;
         }
-        .slides.productos>div {
+        .productos.slides>div {
             width: calc((100%/2) - 80px);
         }
-        .slides.productos::-webkit-scrollbar {
+        .productos.slides::-webkit-scrollbar {
             visibility: visible;
         }
     }
     
     @media screen and (min-width: 800px) {
-        .slides.productos>div {
+        .productos.slides>div {
             width: calc((100%/5) - 40px);
         }
-        .slides.productos::-webkit-scrollbar {
+        .productos.slides::-webkit-scrollbar {
             visibility: hidden;
         }
     }
