@@ -133,7 +133,7 @@
         margin: 20px;
         width: calc((100%/3) - 43px);
         padding-bottom: 12%;
-        transition: width 2s ease-in-out;
+        transition: width 2s ease-in-out, margin 0.1s 1.9s;
     }
     
     .categorias.item {
