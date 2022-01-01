@@ -199,7 +199,7 @@
         position: relative;
         width: 100%;
         margin: 20px 0px;
-        padding-bottom: 25%;
+        padding-bottom: 35%;
     }
     
     .productos.item {
@@ -215,6 +215,32 @@
     
     img.productos.slides {
         width: 100%;
+    }
+    
+    p.productos {
+        /* overflow-wrap: break-word; */
+        overflow: hidden;
+        color: gray;
+        font-size: 1.5vw;
+        font-weight: 600;
+    }
+    
+    p.productos.precio {
+        color: limegreen;
+        font-size: 1.5vw;
+        font-weight: 800;
+    }
+    
+    div.productos.comprar {
+        display: block;
+        overflow: hidden;
+        margin: auto;
+        border-radius: 20px;
+        background-color: lightgreen;
+        width: 80%;
+        height: 40px;
+        font-size: 1.5vw;
+        line-height: 40px;
     }
     /* ----------------productos---------------- */
     /* -----------------footer----------------- */
