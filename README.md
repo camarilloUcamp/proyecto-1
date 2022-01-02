@@ -12,8 +12,8 @@ Se incluye al HTML (en el Head mediante link desde un CDN) la plantilla de icono
 - Sección de registro de usuario.
 - Uso profesional de código HTML y CSS. Logrando resultados profesionales.
 - Las secciones siguientes:
-    a. Header. Sección que involucra el logo y las áreas principales del sitio.
-    b. Jumbotron. Sección de presentación del producto al usuario. 
-    c. Catálogo. Sección que despliega algunos productos.
-    d. Adicionales. Secciones diversas que puedes agregar para dar mayor valor a tu sitio.
-    e. Footer. Sección que incluye todas las áreas del sitio, incluyendo redes sociales.
+    1. Header. Sección que involucra el logo y las áreas principales del sitio.
+    2. Jumbotron. Sección de presentación del producto al usuario. 
+    3. Catálogo. Sección que despliega algunos productos.
+    4. Adicionales. Secciones diversas que puedes agregar para dar mayor valor a tu sitio.
+    5. Footer. Sección que incluye todas las áreas del sitio, incluyendo redes sociales.
