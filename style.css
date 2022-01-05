@@ -374,6 +374,9 @@
         border-style: solid none none none;
         border-color: rgb(121, 199, 121);
         font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     /* -----------------footer----------------- */
     /* -----------------chat----------------- */
@@ -448,7 +451,6 @@
         }
         a.categorias {
             width: 100%;
-            margin: 0px 0px 20px 0px;
         }
         .footer .column {
             width: 50%;
@@ -513,7 +515,7 @@
         }
     }
     /* ---------------responsive--------------- */
-    /* ---------------carussel--------------- */
+    /* ---------------carousel--------------- */
     
     .slides {
         display: flex;
@@ -560,15 +562,6 @@
     .slides>div:nth-child(5) {
         margin-right: 0px;
     }
-    /* img {
-        object-fit: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    } */
-    /* links */
     
     .links>a {
         display: inline-flex;
@@ -589,4 +582,4 @@
     section.jumbotron>a:focus {
         background: lightgrey;
     }
-    /* ---------------carussel--------------- */
+    /* ---------------carousel--------------- */
