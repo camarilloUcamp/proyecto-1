@@ -10,6 +10,10 @@
         width: 100%;
     }
     
+    main {
+        width: 100%;
+    }
+    
     .text {
         text-decoration: none;
         font-family: 'Segoe UI', Verdana, sans-serif;
@@ -104,6 +108,7 @@
         position: relative;
         width: 100%;
         padding-bottom: 29.687%;
+        transition: 1s ease-in;
         /* 
         para cambiar el height cambiar 
         el porcentaje de padding
@@ -120,6 +125,7 @@
     img.jumbotron.slides {
         width: 100%;
         border-radius: 5px;
+        object-fit: fill;
     }
     
     #slide-1 {
@@ -171,6 +177,7 @@
     a.categorias {
         display: block;
         width: calc((100%/3) - 10px);
+        transition: 1s ease-in;
     }
     
     img.categorias {
@@ -204,6 +211,7 @@
         width: calc(100% - 30%);
         text-align: center;
         margin: 30px auto;
+        transition: 1s ease-in;
     }
     
     .productos.titulo {
@@ -266,6 +274,14 @@
     div.productos.comprar:hover {
         background-color: black;
         color: lightgreen;
+    }
+    
+    .productos.slides>div {
+        width: calc((100%/5) - 40px);
+    }
+    
+    .productos.slides::-webkit-scrollbar {
+        visibility: hidden;
     }
     /* ----------------productos---------------- */
     /* -----------------footer----------------- */
@@ -475,6 +491,9 @@
     }
     
     @media screen and (max-width: 800px) {
+        section.productos {
+            width: calc(100% - 10%);
+        }
         .productos.cell {
             padding-bottom: 57%;
         }
@@ -483,15 +502,6 @@
         }
         .productos.slides::-webkit-scrollbar {
             visibility: visible;
-        }
-    }
-    
-    @media screen and (min-width: 800px) {
-        .productos.slides>div {
-            width: calc((100%/5) - 40px);
-        }
-        .productos.slides::-webkit-scrollbar {
-            visibility: hidden;
         }
     }
     
