@@ -1,6 +1,6 @@
-## PROYECTO 1: PÁGINA WEB ESTÁTICA CON HTML Y CSS
+## PROYECTO 1: LANDING PAGE ESTÁTICA CON HTML Y CSS
 
-Esta página web fue creada con la intención de crear una landing page estática solamente utilizando HTML y CSS (sin incluir código de javascript). Se creó un clón de una página comercial **sin la utilización del código de la web original** y solamente se consideró su estructura y su estética. 
+Esta página web fue creada con la intención de recrear una landing page estática solamente utilizando HTML y CSS (sin incluir código de javascript). Se creó un clón de una página comercial **sin la utilización del código de la web original** y solamente se consideró su estructura y su estética. 
 
 Se incluye al HTML (en el Head mediante link desde un CDN) la plantilla de iconos de Bootstrap (Bootstrap Icons) para mejorar la presentación en ciertas secciones, este archivo es el único del cual se auxilia la página para presentar su contenido. No se utiliza preprocesamiento CSS, es decir, se genera todo el código tal cual está escrito.  
 
