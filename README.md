@@ -1,5 +1,5 @@
 ## PROYECTO 1: LANDING PAGE ESTÁTICA CON HTML Y CSS 
-[english](#english-id)
+(scroll for the english version)
 
 Esta página web fue creada con la intención de recrear una landing page estática solamente utilizando HTML y CSS (sin incluir código de javascript). Se creó un clón de una página comercial **sin la utilización del código de la web original** y solamente se consideró su estructura y su estética. 
 
@@ -19,11 +19,11 @@ Se incluye al HTML (en el Head mediante link desde un CDN) la plantilla de icono
     4. Adicionales. Secciones diversas que puedes agregar para dar mayor valor a tu sitio.
     5. Footer. Sección que incluye todas las áreas del sitio, incluyendo redes sociales.
 
-[live demo](https://github.com/xcamarillox/xcamarillox.github.io/proyecto-1)
+[live demo](https://xcamarillox.github.io/proyecto-1/index.html)
 
 
 
-## PROJECT 1: STATIC LANDING PAGE WITH HTML AND CSS {#english-id}
+## PROJECT 1: STATIC LANDING PAGE WITH HTML AND CSS
 
 This web page was created with the intention of recreating a static landing page using only HTML and CSS (no javascript code included). A clone of a commercial page was created **without the use of the original web code** and only its structure and aesthetics were considered.
 
@@ -43,4 +43,4 @@ The Bootstrap icon template (Bootstrap Icons) is included in the HTML (in the He
     4. Additional. Various sections that you can add to give more value to your site.
     5. Footer. Section that includes all areas of the site, including social networks.
 
-[live demo](https://github.com/xcamarillox/xcamarillox.github.io/project-1)
+[live demo](https://xcamarillox.github.io/proyecto-1/index.html)
