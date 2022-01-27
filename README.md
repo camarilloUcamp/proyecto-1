@@ -37,7 +37,7 @@ The Bootstrap icon template (Bootstrap Icons) is included in the HTML (in the He
 - User registration section.
 - Professional use of HTML and CSS code. Achieving professional results.
 - The following sections:
-    1.Header. Section that involves the logo and the main areas of the site.
+    1. Header. Section that involves the logo and the main areas of the site.
     2. Jumbotron. Product presentation section to the user.
     3. Catalog. Section that displays some products.
     4. Additional. Various sections that you can add to give more value to your site.
