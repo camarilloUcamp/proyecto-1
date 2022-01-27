@@ -19,7 +19,7 @@ Se incluye al HTML (en el Head mediante link desde un CDN) la plantilla de icono
     4. Adicionales. Secciones diversas que puedes agregar para dar mayor valor a tu sitio.
     5. Footer. Sección que incluye todas las áreas del sitio, incluyendo redes sociales.
 
-[live demo](https://xcamarillox.github.io/proyecto-1/index.html)
+- [live demo](https://xcamarillox.github.io/proyecto-1/index.html)
 
 _________________
 
@@ -44,4 +44,4 @@ The Bootstrap icon template (Bootstrap Icons) is included in the HTML (in the He
     4. Additional. Various sections that you can add to give more value to your site.
     5. Footer. Section that includes all areas of the site, including social networks.
 
-[live demo](https://xcamarillox.github.io/proyecto-1/index.html)
+- [live demo](https://xcamarillox.github.io/proyecto-1/index.html)
