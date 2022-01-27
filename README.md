@@ -21,6 +21,7 @@ Se incluye al HTML (en el Head mediante link desde un CDN) la plantilla de icono
 
 [live demo](https://xcamarillox.github.io/proyecto-1/index.html)
 
+_________________
 
 
 ## PROJECT 1: STATIC LANDING PAGE WITH HTML AND CSS
