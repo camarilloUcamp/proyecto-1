@@ -1,5 +1,5 @@
 ## PROYECTO 1: LANDING PAGE ESTÁTICA CON HTML Y CSS 
-(scroll for the english version)
+#### (scroll for the english version)
 
 Esta página web fue creada con la intención de recrear una landing page estática solamente utilizando HTML y CSS (sin incluir código de javascript). Se creó un clón de una página comercial **sin la utilización del código de la web original** y solamente se consideró su estructura y su estética. 
 
