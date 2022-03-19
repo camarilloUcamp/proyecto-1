@@ -1,4 +1,4 @@
-## PROYECTO 1: LANDING PAGE ESTÁTICA CON HTML Y CSS 
+## PROYECTO 1: ACME / LANDING PAGE ESTÁTICA CON HTML Y CSS 
 - #### (scroll for the english version)
 - #### Probado en Chrome
 
@@ -25,7 +25,7 @@ Se incluye al HTML (en el Head mediante link desde un CDN) la plantilla de icono
 _________________
 
 
-## PROJECT 1: STATIC LANDING PAGE WITH HTML AND CSS
+## PROJECT 1: ACME / STATIC LANDING PAGE WITH HTML AND CSS
 - #### Chrome Tested
 
 This web page was created with the intention of recreating a static landing page using only HTML and CSS (no javascript code included). A clone of a commercial page was created **without the use of the original web code** and only its structure and aesthetics were considered.
